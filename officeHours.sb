@@ -19,12 +19,12 @@ EndSub
 ' Build Frame
 Sub frmMain
   GraphicsWindow.CanResize = 0
-  GraphicsWindow.Width = 400
-  GraphicsWindow.Height = 350
+  GraphicsWindow.Width = 300
+  GraphicsWindow.Height = 400
   GraphicsWindow.Title = "Office Hour"
   GraphicsWindow.BackgroundColor = GraphicsWindow.GetColorFromRGB(240, 240, 240)
   GraphicsWindow.FontBold = "False"
-  GraphicsWindow.BrushColor = "Black"
+  GraphicsWindow.BrushColor = "Blue"
   GraphicsWindow.Show()
 
   ' Enable the listener for Button Events
@@ -42,22 +42,22 @@ Sub frmMain
   
   centerText()
 
-  GraphicsWindow.BrushColor = "Black"
+  GraphicsWindow.BrushColor = "Red"
   GraphicsWindow.FontBold = "True"
   GraphicsWindow.DrawBoundText(10,30,100, "Current Time:")
   GraphicsWindow.FontBold = "False"
   
-  GraphicsWindow.BrushColor = "Black"
+  GraphicsWindow.BrushColor = "White"
   GraphicsWindow.FontBold = "True"
   GraphicsWindow.DrawBoundText(10,150,130, "Portland Office:")
   GraphicsWindow.FontBold = "False"
   
-  GraphicsWindow.BrushColor = "Black"
+  GraphicsWindow.BrushColor = "Yellow"
   GraphicsWindow.FontBold = "True"
   GraphicsWindow.DrawBoundText(10,200,130, "New York Office:")
   GraphicsWindow.FontBold = "False"
   
-  GraphicsWindow.BrushColor = "Black"
+  GraphicsWindow.BrushColor = "Green"
   GraphicsWindow.FontBold = "True"
   GraphicsWindow.DrawBoundText(10,250,130, "London Office:")
   GraphicsWindow.FontBold = "False"
